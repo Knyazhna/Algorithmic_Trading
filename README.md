@@ -88,9 +88,10 @@ In this section, you’ll use the original parameters that the starter code prov
 
 3. Backtest the new model to evaluate its performance. Save a PNG image of the cumulative product of the actual returns vs. the strategy returns for this updated trading algorithm, and write your conclusions in your `README.md` file. Answer the following questions: Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
 
-#### Create an Evaluation Report
+#### Evaluation Report
 
-In the previous sections, you updated your `README.md` file with your conclusions. To accomplish this section, you need to add a summary evaluation report at the end of the `README.md` file. For this report, express your final conclusions and analysis. Support your findings by using the PNG images that you created.
+Conclusion is that with data slicing taking dateoffset value for 1 month and 6 months the accuracy is 55% and 56% respectively. It does not show much significant difference.
+SVM classifier model, by increasing the window size short=50 and long=200, the accuracy is 54%, with short=5 and long=50 accuracy is 54% and short=4 and long=100 accuract is 55%. The accuracy does not change much.
 
 ---
 ## Contributors
